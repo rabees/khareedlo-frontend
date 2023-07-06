@@ -35,7 +35,7 @@ Once the Khareedlo frontend is running, you can use the application to browse an
 - **Order**: View and manage your orders, including tracking shipment status.
 - **Search**: Search for products based on keywords, categories, or other filters.
 - **Products**: Browse and view details of available products in the marketplace.
-- **Admin Panel**: Access the admin panel for managing users, products, and orders.
+- **Admin Panel**: Access the admin panel for managing products.
 
 ## Contributing
 
