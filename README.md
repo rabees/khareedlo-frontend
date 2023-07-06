@@ -2,6 +2,8 @@
 
 This is the frontend repository for the Khareedlo project. Khareedlo is an online marketplace platform where users can buy and sell various products. This repository contains the client-side code responsible for the user interface and interaction.
 
+The backend repository for Khareedlo can be found [here](https://github.com/rabees/khareedlo-backend).
+
 ## Table of Contents
 
 - [Installation](#installation)
