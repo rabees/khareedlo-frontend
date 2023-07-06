@@ -3,6 +3,7 @@
 This is the frontend repository for the Khareedlo project. Khareedlo is an online marketplace platform where users can buy and sell various products. This repository contains the client-side code responsible for the user interface and interaction.
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -13,16 +14,16 @@ This is the frontend repository for the Khareedlo project. Khareedlo is an onlin
 To install and run the Khareedlo frontend locally, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/rabees/khareedlo-frontend.git
+   git clone https://github.com/rabees/khareedlo-frontend.git
 
 2. Change to the project directory:
-cd khareedlo-frontend
+   cd khareedlo-frontend
 
 3. Install the dependencies:
-npm install
+   npm install
 
 4. Start the development server:
-npm start
+   npm start
 
 5. Open your web browser and visit `http://localhost:3000` to access the Khareedlo application.
 
@@ -52,23 +53,21 @@ Contributions to Khareedlo are welcome! If you would like to contribute to this 
 Here are some screenshots showcasing the Khareedlo frontend:
 
 1. **Signup**: ![Signup](screenshots/signup.png)
-   *The signup page allows users to create a new account.*
+   _The signup page allows users to create a new account._
 
 2. **Signin**: ![Signin](screenshots/signin.png)
-   *The signin page enables users to log in to their existing account.*
+   _The signin page enables users to log in to their existing account._
 
 3. **Products**: ![Products](screenshots/products.png)
-   *The products page displays available products with their details and prices.*
+   _The products page displays available products with their details and prices._
 
 4. **Search**: ![Search](screenshots/search.png)
-   *The search page provides a search bar and filters to find specific products.*
+   _The search page provides a search bar and filters to find specific products._
 
 5. **Checkout**: ![Order](screenshots/checkout.png)
-   *The checkout page allows users to buy the items in the cart.*
-         
+   _The checkout page allows users to buy the items in the cart._
 6. **Order**: ![Order](screenshots/order.png)
-   *The order page shows a list of orders and their status, including tracking information.*
+   _The order page shows a list of orders and their status, including tracking information._
 
-6. **Admin Panel**: ![Manage Products](screenshots/manageProducts.png) ![Add Products](screenshots/addProducts.png) ![Edit Products](screenshots/editProducts.png)
-   *The admin panel provides a dedicated interface for managing products.*
-
+7. **Admin Panel**: ![Manage Products](screenshots/manage-products.png) ![Add Products](screenshots/add-products.png) ![Edit Products](screenshots/edit-products.png)
+   _The admin panel provides a dedicated interface for managing products._
