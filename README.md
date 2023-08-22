@@ -4,6 +4,8 @@ This is the frontend repository for the Khareedlo project. Khareedlo is an onlin
 
 The backend repository for Khareedlo can be found [here](https://github.com/rabees/khareedlo-backend).
 
+Visit the application at [https://khareed-lo.netlify.app/](https://khareed-lo.netlify.app/).
+
 ## Table of Contents
 
 - [Installation](#installation)
