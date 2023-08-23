@@ -12,7 +12,7 @@ const CheckOut = () => {
     const handleCheckout = () => {
         const oderDetails = { ...loggedInUser, product: cart, orderTime: new Date() };
 
-        axios.post('https://khareedlo.cyclic.cloud/addOrder', oderDetails)
+        axios.post('http://localhost:5000/addOrder', oderDetails)
             .then(response => {
                 response.data && swal("Order placed successfully", "Your order placed successfully!", "success");
             })

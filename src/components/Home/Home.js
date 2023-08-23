@@ -17,7 +17,7 @@ const Home = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get('https://khareedlo.cyclic.cloud/products')
+        axios.get('http://localhost:5000/products')
             .then(response => {
                 setProducts(response.data);
                 setLoading(false);
@@ -29,7 +29,7 @@ const Home = () => {
 
     const onSubmit = data => {
         setLoading(true);
-        axios.get(`https://khareedlo.cyclic.cloud/search?keyword=${data.keyword}`)
+        axios.get(`http://localhost:5000/search?keyword=${data.keyword}`)
             .then(response => {
                 setProducts(response.data);
                 setLoading(false);

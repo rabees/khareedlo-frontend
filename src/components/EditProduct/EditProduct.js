@@ -17,7 +17,7 @@ const EditProduct = ({ editProduct, setEditProduct }) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get('https://khareedlo.cyclic.cloud/products')
+        axios.get('http://localhost:5000/products')
             .then(response => {
                 setItems(response.data);
                 setLoading(false);
@@ -28,7 +28,7 @@ const EditProduct = ({ editProduct, setEditProduct }) => {
     }, [])
 
     const updateProduct = product => {
-        axios.patch(`https://khareedlo.cyclic.cloud/update/${editProduct?._id}`, product)
+        axios.patch(`http://localhost:5000/update/${editProduct?._id}`, product)
             .then(response => response.data && swal("Successfully updated", "Your product is successfully updated!", "success"))
             .catch(error => console.log(error));
     }
