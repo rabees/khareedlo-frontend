@@ -17,7 +17,7 @@ const Orders = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/orders?email=${loggedInUser.email}`)
+        axios.get(`https://khareedlo.cyclic.cloud/orders?email=${loggedInUser.email}`)
             .then(response => {
                 setOrderDetails(response.data);
                 setLoading(false);

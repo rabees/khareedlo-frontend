@@ -15,7 +15,7 @@ const ManageProduct = ({ setEditProduct }) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/products')
+        axios.get('https://khareedlo.cyclic.cloud/products')
             .then(response => {
                 setItems(response.data);
                 setLoading(false);
@@ -28,7 +28,7 @@ const ManageProduct = ({ setEditProduct }) => {
     const handleDeleteItem = id => {
         const removedItems = items.filter(item => item._id !== id);
 
-        axios.delete(`http://localhost:5000/delete/${id}`)
+        axios.delete(`https://khareedlo.cyclic.cloud/delete/${id}`)
             .then(response => {
                 response && setItems(removedItems);;
             })

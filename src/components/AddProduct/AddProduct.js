@@ -24,7 +24,7 @@ const AddProduct = ({ editProduct, updateProduct }) => {
       return updateProduct(productInfo);
     }
     axios
-      .post('http://localhost:5000/addProduct', productInfo)
+      .post('https://khareedlo.cyclic.cloud/addProduct', productInfo)
       .then((response) =>
         response.data &&
         swal('Successfully Added', 'Your product is successfully added!', 'success')
